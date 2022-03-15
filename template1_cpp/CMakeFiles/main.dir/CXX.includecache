@@ -1,0 +1,66 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sergey/Рабочий стол/template1_cpp/Image.h
+string
+-
+
+/home/sergey/Рабочий стол/template1_cpp/Player.h
+Image.h
+/home/sergey/Рабочий стол/template1_cpp/Image.h
+
+/home/sergey/Рабочий стол/template1_cpp/common.h
+iostream
+-
+fstream
+-
+string
+-
+glad/glad.h
+-
+
+/home/sergey/Рабочий стол/template1_cpp/main.cpp
+common.h
+/home/sergey/Рабочий стол/template1_cpp/common.h
+Image.h
+/home/sergey/Рабочий стол/template1_cpp/Image.h
+Player.h
+/home/sergey/Рабочий стол/template1_cpp/Player.h
+unistd.h
+/home/sergey/Рабочий стол/template1_cpp/unistd.h
+GLFW/glfw3.h
+-
+
+dependencies/include/GLAD/KHR/khrplatform.h
+stdint.h
+-
+inttypes.h
+-
+stdint.h
+-
+
+dependencies/include/GLAD/glad/glad.h
+windows.h
+-
+stddef.h
+-
+KHR/khrplatform.h
+-
+inttypes.h
+-
+inttypes.h
+-
+inttypes.h
+-
+stdint.h
+-
+stdint.h
+-
+inttypes.h
+-
+
